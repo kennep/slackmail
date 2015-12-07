@@ -1,0 +1,563 @@
+Delivered-To: kenneth@wangpedersen.com
+Received: from a15-197.smtp-out.amazonses.com (a15-197.smtp-out.amazonses.com [54.240.15.197]) by mx.zohomail.com
+	with SMTPS id 1449475794271104.10464234300673; Mon, 7 Dec 2015 00:09:54 -0800 (PST)
+Return-Path: <2015120708095114aa9775c5b645539d9529be1a60p0na-CB7Y9NG89IHHC@bounces.amazon.com>
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=2uvkuueiefyaargm6tgkndh3xdf5ejpl; d=amazon.com; t=1449475791;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type;
+	bh=ocKjprVTP7FJ/LdcQTFwXwQwdbaaG/bnZDIxsXPVvmA=;
+	b=DlE8efeze7zldbNJjIhQD8N8eTZhLDBqmNBC+dTlEKR5mzrk6SMfoskUOl9EYOqe
+	vNxgfaoTsmqBqau/7Tml2DiLVJpEnNdTKimmcsnTi0AuWlcjUhkR4ijTytQlyUVGCZy
+	vhBh6sl7ctVkVbPQXY/+GC/JHZSk/uysPusnU2cA=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1449475791;
+	h=Date:From:To:Message-ID:Subject:MIME-Version:Content-Type:Feedback-ID;
+	bh=ocKjprVTP7FJ/LdcQTFwXwQwdbaaG/bnZDIxsXPVvmA=;
+	b=T4hCCMekwgFWlKpNqklVQVuo/6Vx9oeai1LzP9k6AKZH0IXQNg5JFRWKFKjwPMC6
+	jfpcH8rsy3zV0QZ5qzs+gPh/593ea8Cg4PUXDGjWTp+EPNjk4nNeWAXB4oMJ5CXQhAs
+	eBQVrmfhKR5DrLwqC+o4EYe6kXYXDfB0bGzDhRmM=
+Date: Mon, 7 Dec 2015 08:09:51 +0000
+From: "aws-marketing-email-replies@amazon.com" <no-reply-aws@amazon.com>
+To: "kenneth@wangpedersen.com" <kenneth@wangpedersen.com>
+Message-ID: <000001517b7d5b52-8dcfff15-94d6-4b91-b2b9-225972de1960-000000@email.amazonses.com>
+Subject: Get ready for 2016, get trained on AWS
+MIME-Version: 1.0
+Content-Type: multipart/mixed; 
+	boundary="----=_Part_37913509_1320677860.1449475791528"
+X-AMAZON-RTE-VERSION: 2.0
+X-AMAZON-METADATA: CA=CB7Y9NG89IHHC-CU=A11ANLTN8NEAXO-RI=A25Q85E4BPQDBO
+Bounces-to: 2015120708095114aa9775c5b645539d9529be1a60p0na-CB7Y9NG89IHHC@bounces.amazon.com
+X-AMAZON-MAIL-RELAY-TYPE: merchandizing
+X-Original-MessageID: <urn.correios.msg.2015120708095114aa9775c5b645539d9529be1a60p0na@1449475791615.massmail-sender-na-1e-i-b9cd4895.us-east-1.amazon.com>
+X-SES-Outgoing: 2015.12.07-54.240.15.197
+Feedback-ID: 1.us-east-1.+gzE1S+MWTFXXYmwxo7wkk651GMxMPAUFYiyN/09X40=:AmazonSES
+X-ZohoMail: Ss2  SS_10 UW2468 UB2468 ZCF-710BCNI-710TTE2 UW2468 UB2468 ODL   SGR3_1_12115_104
+X-ZohoMail-Owner: <000001517b7d5b52-8dcfff15-94d6-4b91-b2b9-225972de1960-000000@email.amazonses.com>+zmo_0_<2015120708095114aa9775c5b645539d9529be1a60p0na-CB7Y9NG89IHHC@bounces.amazon.com>
+X-ZohoMail-Sender: 54.240.15.197
+X-Zoho-Virus-Status: 2
+
+------=_Part_37913509_1320677860.1449475791528
+Content-Type: multipart/alternative; 
+	boundary="----=_Part_37913510_1766469808.1449475791528"
+
+------=_Part_37913510_1766469808.1449475791528
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Amazon Web Services Customer,
+
+Whether you're trying to jump start your career or just pick up a new techn=
+ical skill in 2016, AWS training classes can help. Taught by accredited tec=
+hnical instructors, our classes include hands-on labs to help you learn new=
+ skills and best practices for working with AWS.=20
+
+AWS Classes & Workshops
+=20
+Learn AWS skills and best practices in person or online from our global net=
+work of accredited technical instructors and APN Training Partners. Registe=
+r for a public class or ask us about private on-site classes for your team.=
+ =C2=BB http://aws.amazon.com/contact-us/aws-training/?sc_ichannel=3Dem&sc_=
+icountry=3Demea&sc_icampaigntype=3Dnewsletter&sc_icampaign=3Dem_158486500&s=
+c_idetail=3Dem_2075729300&ref_=3D109
+
+Learn more: http://aws.amazon.com/contact-us/aws-training/?sc_ichannel=3Dem=
+&sc_icountry=3Demea&sc_icampaigntype=3Dnewsletter&sc_icampaign=3Dem_1584865=
+00&sc_idetail=3Dem_2075729300&ref_=3D107
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+Architecting on AWS=20
+
+Technical overview of AWS services to help you make more informed decisions=
+ about IT solutions.
+
+Who it's for: Any IT professional new to AWS=20
+
+Learn more and find a class: http://aws.amazon.com/training/course-descript=
+ions/architect/?sc_ichannel=3Dem&sc_icountry=3Demea&sc_icampaigntype=3Dnews=
+letter&sc_icampaign=3Dem_158486500&sc_idetail=3Dem_2075729300&ref_=3D110
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+AWS Systems Operations=20
+
+Technical overview of AWS services to help you make more informed decisions=
+ about IT solutions.
+
+Who it's for: Any IT professional new to AWS=20
+
+Learn more and find a class: http://aws.amazon.com/training/course-descript=
+ions/sysops/?sc_ichannel=3Dem&sc_icountry=3Demea&sc_icampaigntype=3Dnewslet=
+ter&sc_icampaign=3Dem_158486500&sc_idetail=3Dem_2075729300&ref_=3D111
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+
+AWS Technical Essentials=20
+Learn more and find a class: http://aws.amazon.com/training/course-descript=
+ions/essentials/?sc_ichannel=3Dem&sc_icountry=3Demea&sc_icampaigntype=3Dnew=
+sletter&sc_icampaign=3Dem_158486500&sc_idetail=3Dem_2075729300&ref_=3D112
+
+Free AWS Videos and Labs=20
+See all videos and labs: http://aws.amazon.com/training/intro_series/?sc_ic=
+hannel=3Dem&sc_icountry=3Demea&sc_icampaigntype=3Dnewsletter&sc_icampaign=
+=3Dem_158486500&sc_idetail=3Dem_2075729300&ref_=3D113
+
+AWS Business Essentials=20
+Learn more and find a class: http://aws.amazon.com/training/course-descript=
+ions/business-essentials/?sc_ichannel=3Dem&sc_icountry=3Demea&sc_icampaignt=
+ype=3Dnewsletter&sc_icampaign=3Dem_158486500&sc_idetail=3Dem_2075729300&ref=
+_=3D114
+
+We hope you enjoyed receiving this message. If you'd rather not receive fut=
+ure emails from Amazon Web Services unsubscribe here: http://aws.amazon.com=
+/email-preferences/?mkt_tok=3D1wpq4LFYtIurggsosaTux4SXrjv9Y4ooXYN0-fqnpsp-A=
+zSBJB.D2l6BmGyrhR2QU&sc_ichannel=3DEM&sc_icountry=3DEMEA&sc_icampaigntype=
+=3DEvent&sc_icampaign=3DEM_158486500&ref_=3D6
+
+Amazon Web Services, Inc. is a subsidiary of Amazon.com, Inc. Amazon.com is=
+ a registered trademark of Amazon.com, Inc.
+This message produced and distributed by Amazon Web Services, Inc., 410 Ter=
+ry Ave. North, Seattle, WA 98109-5210.
+
+------=_Part_37913510_1766469808.1449475791528
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width">
+<style type=3D'text/css'>
+        @media only screen and (max-width:460px){
+                        body[yahoo] {margin:0;padding:0;}
+                        body[yahoo] table, body[yahoo] .displayWidth {width=
+:100% !important;}
+                        body[yahoo] td.marginAl {width:15px !important;}
+                        body[yahoo] .socialContainer {text-align:center;}
+                        body[yahoo] .socialPod {display:inline-block;width:=
+18%;text-align:center;}
+                        body[yahoo] .socialDivider {display:inline-block;wi=
+dth:7%;}
+                        body[yahoo] .cellBreaker {display:block !important;=
+}
+                        body[yahoo] .mobileHeadImgAlt {display:block !impor=
+tant;width:100% !important;overflow:visible !important;float:none !importan=
+t;max-height: none !important}
+                        body[yahoo] .mobileHeadImg {display:none !important=
+;}
+                        body[yahoo] .featureBox {padding-bottom:15px;border=
+-bottom:1px solid #E8E8E8;}
+                        }
+</style>
+<title></title>
+</head>
+<body yahoo=3D"fix" style=3D"margin-top:0; margin-bottom:0; margin-left:0; =
+margin-right:0; " ><img src=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3T=
+B4179T&R=3D1629U2TJJXVYM&T=3DO&U=3Dhttp%3A%2F%2Fimages.amazon.com%2Fimages%=
+2FG%2F01%2Fnav%2Ftransp.gif&A=3DH9QUPJ1AJ8B7ADCENCAM28KEDRGA&H=3DZRXO38LAV0=
+IA18WKT0AND0VQUYEA&ref_=3Dpe_1856330_158486500" /><table style=3D"backgroun=
+d-color:#f8f8f8; " bgcolor=3D"#F8F8F8" width=3D"100%" align=3D"center" cell=
+spacing=3D"0" cellpadding=3D"0" class=3D"mainTable" ><tr ><td ><br>
+<table style=3D"font-family:arial, helvetica, sans-serif; font-size:14px; l=
+ine-height:20px; background-color:#ffffff; font-color:black; border-top:1px=
+ solid #E8E8E8; border-right:1px solid #E8E8E8; border-bottom:1px solid #E8=
+E8E8; border-left:1px solid #E8E8E8; " align=3D"center" bgcolor=3D"#FFFFFF"=
+ cellspacing=3D"0" cellpadding=3D"0" width=3D"650" ><tr ><td width=3D"30" c=
+lass=3D'marginAl'><img style=3D"display: block;" src=3D"http://na-sj01.mark=
+eto.com/rs/amazonwebservices/images/awscloudtour_spacer.gif" border=3D"0" a=
+lt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+<td style=3D"font-family:arial, helvetica, sans-serif; font-size:12px; line=
+-height:20px; " valign=3D"top" width=3D"590" class=3D"displayWidth" ><br>
+<a href=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1629U2TJJ=
+XVYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%3Fref_%3Dpe_1856330_158486500&A=
+=3D8HOEYREEVHDXSGRLHHR5JPQIFNQA&H=3DFXK3BR4S5EY5PP9BYRAEAC3VJK8A&ref_=3Dpe_=
+1856330_158486500"><img src=3D"http://d36cz9buwru1tt.cloudfront.net/aws-ema=
+il-logo.png" alt=3D"Amazon Web Services" width=3D"139" height=3D"52"></a><b=
+r>
+<br>
+<p><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12px;=
+ color: #000000;">Dear Amazon Web Services Customer,</span></p>
+<p><span style=3D"font-family: arial,helvetica,sans-serif; font-size: 12px;=
+ color: #000000;"><span style=3D"font-family: 'Arial','sans-serif';"><span =
+style=3D"font-family: 'Arial','sans-serif';"><span style=3D"font-family: ar=
+ial,helvetica,sans-serif;"><span>Whether you&rsquo;re trying to jump start =
+your career or just pick up a new technical skill in 2016,AWS training clas=
+ses</a> can help. Taught by accredited technical instructors, our classes i=
+nclude hands-on labs to help you learn new skills and best practices for wo=
+rking with AWS. </span></span>
+</td>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+</tr>
+<tr>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+<td width=3D'590' class=3D'displayWidth'>&nbsp;</td>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+</tr>
+<tr ><td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=
+=3D"http://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spa=
+cer.gif" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+<td valign=3D"top" width=3D"590" class=3D"displayWidth" ><table cellpadding=
+=3D"0" cellspacing=3D"0" border=3D"0" width=3D"590" class=3D"displayWidth">=
+<tr><td width=3D"200" valign=3D"top" class=3D"mobileHeadImg"><a href=3D"htt=
+ps://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1629U2TJJXVYM&T=3DC&U=
+=3Dhttp%3A%2F%2Faws.amazon.com%2Fcontact-us%2Faws-training%2F%3Fsc_ichannel=
+%3Dem%26sc_icountry%3Demea%26sc_icampaigntype%3Dnewsletter%26sc_icampaign%3=
+Dem_158486500%26sc_idetail%3Dem_2075729300%26ref_%3Dpe_1856330_158486500_10=
+7&A=3DSA8BPGJU7WUUXCMYUJUAWA7ZGYEA&H=3DBLF6SESOS45FTW7IVTEO5KMUABAA&ref_=3D=
+pe_1856330_158486500_107"><img class=3D"displayWidth" style=3D"display: blo=
+ck;" src=3D"https://s3-eu-west-1.amazonaws.com/ukemails/train-cert-instruct=
+ortrain.png" alt=3D"" width=3D"282" border=3D'0'></a>
+<br></td>
+<td width=3D'15' class=3D'mobileHeadImg'>&nbsp;</td>
+<td width=3D"375" style=3D"font-family:arial, helvetica, sans-serif; font-s=
+ize:12px; line-height:20px; " valign=3D"top" class=3D"displayWidth cellBrea=
+ker"><span style=3D"font-size:16px; line-height:24px; color:#414042;"><stro=
+ng>AWS Classes & Workshops<br></strong></span>
+<br>
+</span></span></span><span style=3D"font-family: arial,helvetica,sans-serif=
+; font-size: 12px;"><span lang=3D"EN-GB"><span style=3D"color: #000000;">Le=
+arn AWS skills and best practices in person or online from our global netwo=
+rk of accredited technical instructors and APN Training Partners.  Register=
+ for a public class&mdash;or </span><a href=3D"https://www.amazon.com/gp/r.=
+html?C=3D2RFQE3TB4179T&R=3D1629U2TJJXVYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.=
+com%2Fcontact-us%2Faws-training%2F%3Fsc_ichannel%3Dem%26sc_icountry%3Demea%=
+26sc_icampaigntype%3Dnewsletter%26sc_icampaign%3Dem_158486500%26sc_idetail%=
+3Dem_2075729300%26ref_%3Dpe_1856330_158486500_108&A=3DA4JRG9T84K1EOYIIS8P8B=
+EKJ9KKA&H=3DH6AXVS2K8CMBMNOJAYD9DGGIAGUA&ref_=3Dpe_1856330_158486500_108" t=
+arget=3D"_blank">ask us</a><span style=3D"color: #000000;"> about private o=
+n-site classes for your team. </span></span></span><span style=3D"font-fami=
+ly: arial,helvetica,sans-serif; font-size: 12px; color: #000000;"><span sty=
+le=3D"font-family: 'Arial','sans-serif';"><span style=3D"font-family: 'Aria=
+l','sans-serif';"><span style=3D"font-family: arial,helvetica,sans-serif;">=
+<span style=3D"font-family: 'Arial','sans-serif';"><br><br><a href=3D"https=
+://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1629U2TJJXVYM&T=3DC&U=3Dh=
+ttp%3A%2F%2Faws.amazon.com%2Fcontact-us%2Faws-training%2F%3Fsc_ichannel%3De=
+m%26sc_icountry%3Demea%26sc_icampaigntype%3Dnewsletter%26sc_icampaign%3Dem_=
+158486500%26sc_idetail%3Dem_2075729300%26ref_%3Dpe_1856330_158486500_107&A=
+=3DSA8BPGJU7WUUXCMYUJUAWA7ZGYEA&H=3DBLF6SESOS45FTW7IVTEO5KMUABAA&ref_=3Dpe_=
+1856330_158486500_107">Learn more &raquo;</a>
+<br></td>
+</tr>
+</table>
+<br>
+<hr style=3D"color: #E8E8E8;" size=3D"1"></td>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+</tr>
+<tr ><td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=
+=3D"http://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spa=
+cer.gif" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+<td width=3D"590" class=3D"displayWidth" ><table cellpadding=3D"0" cellspac=
+ing=3D"0" border=3D"0" class=3D"displayWidth" width=3D"100%" ><tr ><td alig=
+n=3D"left" class=3D"displayWidth cellBreaker featureBox" valign=3D"top"><br=
+>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"282" class=
+=3D"displayWidth" ><tr><td><a href=3D"https://www.amazon.com/gp/r.html?C=3D=
+2RFQE3TB4179T&R=3D1629U2TJJXVYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%2Ftra=
+ining%2Fcourse-descriptions%2Farchitect%2F%3Fsc_ichannel%3Dem%26sc_icountry=
+%3Demea%26sc_icampaigntype%3Dnewsletter%26sc_icampaign%3Dem_158486500%26sc_=
+idetail%3Dem_2075729300%26ref_%3Dpe_1856330_158486500_110&A=3DNBYPAJAOEBTGM=
+JZEAHGBDRXT9SAA&H=3DKNCK4AQ9KSQIAZVC1JO5A0IBYWMA&ref_=3Dpe_1856330_15848650=
+0_110"><img class=3D"displayWidth" style=3D"display: block;" src=3D" https:=
+//s3-eu-west-1.amazonaws.com/ukemails/architecting+on+aws.JPG" alt=3D"Archi=
+tecting on AWS" width=3D"282"></a>
+</td>
+</tr>
+<tr ><td style=3D"font-family:arial, helvetica, sans-serif; line-height:20p=
+x; font-size:12px; padding-top:5px;"><br><span style=3D"font-size:16px; lin=
+e-height:24px; color:#414042;"><strong>Architecting on AWS</strong></span>
+<br>
+<span style=3D"font-size: 12px; font-family: arial,helvetica,sans-serif; co=
+lor: #000000;"><br />Technical overview of AWS services to help you make mo=
+re informed decisions about IT solutions.<br /><br /><strong>Who it's for:<=
+/strong> Any IT professional new to AWS</span>
+<br><br><a href=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1=
+629U2TJJXVYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%2Ftraining%2Fcourse-desc=
+riptions%2Farchitect%2F%3Fsc_ichannel%3Dem%26sc_icountry%3Demea%26sc_icampa=
+igntype%3Dnewsletter%26sc_icampaign%3Dem_158486500%26sc_idetail%3Dem_207572=
+9300%26ref_%3Dpe_1856330_158486500_110&A=3DNBYPAJAOEBTGMJZEAHGBDRXT9SAA&H=
+=3DKNCK4AQ9KSQIAZVC1JO5A0IBYWMA&ref_=3Dpe_1856330_158486500_110"><span styl=
+e=3D"color: #146eb4;">Learn more and find a class &raquo;</span></a>
+</td>
+</tr>
+</table>
+</td>
+<td align=3D"right" valign=3D"top" class=3D"displayWidth cellBreaker" style=
+=3D"padding-bottom:15px; " ><br>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" width=3D"282" class=
+=3D"displayWidth" ><tr ><td ><div class=3D"mktEditable" id=3D"feature-03-im=
+age" ><a href=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D162=
+9U2TJJXVYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%2Ftraining%2Fcourse-descri=
+ptions%2Fsysops%2F%3Fsc_ichannel%3Dem%26sc_icountry%3Demea%26sc_icampaignty=
+pe%3Dnewsletter%26sc_icampaign%3Dem_158486500%26sc_idetail%3Dem_2075729300%=
+26ref_%3Dpe_1856330_158486500_111&A=3DBZCHKTO8DH91JGTK6SE7HVAUAPWA&H=3D6FLM=
+WI4PATISEXWEM8ZXJFPKOMGA&ref_=3Dpe_1856330_158486500_111"><img class=3D"dis=
+playWidth" style=3D"display: block;" src=3D"https://s3-eu-west-1.amazonaws.=
+com/ukemails/system+op.JPG" alt=3D"AWS Systems Operations" width=3D"282"></=
+a></div>
+</td>
+</tr>
+<tr ><td style=3D"font-family:arial, helvetica, sans-serif; line-height:20p=
+x; font-size:12px; padding-top:5px; text-align:left;" ><br><span style=3D"f=
+ont-size:16px; line-height:24px; color:#414042;"><strong>AWS Systems Operat=
+ions</strong></span>
+<br>
+<span style=3D"font-size: 12px; font-family: arial,helvetica,sans-serif;"><=
+br /><span style=3D"color: #000000;">Learn how to create automatable and re=
+peatable deployments of networks and systems on the AWS platform.</span><br=
+ /><br /><span style=3D"color: #000000;"><strong>Who it's for:</strong> Sys=
+tems administrators and software developers</span>
+<br><br><a href=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1=
+629U2TJJXVYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%2Ftraining%2Fcourse-desc=
+riptions%2Fsysops%2F%3Fsc_ichannel%3Dem%26sc_icountry%3Demea%26sc_icampaign=
+type%3Dnewsletter%26sc_icampaign%3Dem_158486500%26sc_idetail%3Dem_207572930=
+0%26ref_%3Dpe_1856330_158486500_111&A=3DBZCHKTO8DH91JGTK6SE7HVAUAPWA&H=3D6F=
+LMWI4PATISEXWEM8ZXJFPKOMGA&ref_=3Dpe_1856330_158486500_111"><span style=3D"=
+color: #146eb4;">Learn more and find a class &raquo;</span></a>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1"></td>
+</tr>
+<tr>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1"></td>
+<td>
+<hr style=3D'color:#E8E8E8;' size=3D"1"></td>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1"></td>
+</tr>
+<tr ><td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=
+=3D"http://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spa=
+cer.gif" border=3D"0" alt=3D"" width=3D"1" height=3D"1"></td>
+<td valign=3D"top" width=3D"590" class=3D"displayWidth" ><br>
+<table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" class=3D"displayWid=
+th" ><tr ><td width=3D"203" align=3D"left" valign=3D"top" class=3D"displayW=
+idth cellBreaker" ><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0" =
+><tr ><td width=3D"184" ><a href=3D"https://www.amazon.com/gp/r.html?C=3D2R=
+FQE3TB4179T&R=3D1629U2TJJXVYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%2Ftrain=
+ing%2Fcourse-descriptions%2Fessentials%2F%3Fsc_ichannel%3Dem%26sc_icountry%=
+3Demea%26sc_icampaigntype%3Dnewsletter%26sc_icampaign%3Dem_158486500%26sc_i=
+detail%3Dem_2075729300%26ref_%3Dpe_1856330_158486500_112&A=3DP4ZZTTGJNBPL6K=
+ASNLGBHMWXYGEA&H=3DFJ81ABEYQZ5L8WFN8YDFSP3TEASA&ref_=3Dpe_1856330_158486500=
+_112"><img class=3D"displayWidth" style=3D"display: block;" src=3D"https://=
+s3-eu-west-1.amazonaws.com/ukemails/techessential.JPG" alt=3D"AWS Technical=
+ Essentials" width=3D"184"></a>
+</td>
+<td width=3D'19' class=3D'mobileHeadImg'><img style=3D"display: block;" src=
+=3D"http://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spa=
+cer.gif" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+</tr>
+<tr ><td style=3D"font-family:arial, helvetica, sans-serif; line-height:20p=
+x; font-size:12px; padding-top:10px; "><span style=3D"font-size:14px; line-=
+height:24px; color:#414042;"><strong>AWS Technical Essentials</strong></spa=
+n>
+<br>
+<a style=3D"color: #146eb4;" href=3D"https://www.amazon.com/gp/r.html?C=3D2=
+RFQE3TB4179T&R=3D1629U2TJJXVYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%2Ftrai=
+ning%2Fcourse-descriptions%2Fessentials%2F%3Fsc_ichannel%3Dem%26sc_icountry=
+%3Demea%26sc_icampaigntype%3Dnewsletter%26sc_icampaign%3Dem_158486500%26sc_=
+idetail%3Dem_2075729300%26ref_%3Dpe_1856330_158486500_112&A=3DP4ZZTTGJNBPL6=
+KASNLGBHMWXYGEA&H=3DFJ81ABEYQZ5L8WFN8YDFSP3TEASA&ref_=3Dpe_1856330_15848650=
+0_112">Learn more and find a class &raquo;</a>
+<br>
+<br></td>
+<td width=3D'19' class=3D'mobileHeadImg'><img style=3D"display: block;" src=
+=3D"http://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spa=
+cer.gif" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+</tr>
+</table>
+</td>
+<td width=3D"203" valign=3D"top" class=3D"displayWidth cellBreaker" ><table=
+ cellpadding=3D"0" cellspacing=3D"0" border=3D"0" ><tr ><td width=3D"184" >=
+<a href=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1629U2TJJ=
+XVYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%2Ftraining%2Fintro_series%2F%3Fs=
+c_ichannel%3Dem%26sc_icountry%3Demea%26sc_icampaigntype%3Dnewsletter%26sc_i=
+campaign%3Dem_158486500%26sc_idetail%3Dem_2075729300%26ref_%3Dpe_1856330_15=
+8486500_113&A=3D4VCAHWXSGIAM8YOB5ORGK76QIBCA&H=3DNX5MAGBSX1WKYG2C5NHIGGYYBO=
+UA&ref_=3Dpe_1856330_158486500_113"><img class=3D"displayWidth" style=3D"di=
+splay: block;" src=3D"https://s3-eu-west-1.amazonaws.com/ukemails/freevideo=
+s.JPG" alt=3D"Free AWS Videos and Labs" width=3D"184"></a></td>
+<td width=3D'19' class=3D'mobileHeadImg'><img style=3D"display: block;" src=
+=3D"http://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spa=
+cer.gif" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+</tr>
+<tr ><td style=3D"font-family:arial, helvetica, sans-serif; line-height:20p=
+x; font-size:13px; padding-top:10px; " ><span style=3D"font-size:14px; line=
+-height:24px; color:#414042;"><strong>Free AWS Videos and Labs</strong></sp=
+an>
+<br>
+<a style=3D"color: #146eb4;" href=3D"https://www.amazon.com/gp/r.html?C=3D2=
+RFQE3TB4179T&R=3D1629U2TJJXVYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%2Ftrai=
+ning%2Fintro_series%2F%3Fsc_ichannel%3Dem%26sc_icountry%3Demea%26sc_icampai=
+gntype%3Dnewsletter%26sc_icampaign%3Dem_158486500%26sc_idetail%3Dem_2075729=
+300%26ref_%3Dpe_1856330_158486500_113&A=3D4VCAHWXSGIAM8YOB5ORGK76QIBCA&H=3D=
+NX5MAGBSX1WKYG2C5NHIGGYYBOUA&ref_=3Dpe_1856330_158486500_113">See all video=
+s and labs &raquo;</a>
+<br>
+<br></td>
+<td width=3D'19' class=3D'mobileHeadImg'><img style=3D"display: block;" src=
+=3D"http://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spa=
+cer.gif" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+</tr>
+</table>
+</td>
+<td width=3D"184" valign=3D"top" class=3D"displayWidth cellBreaker"><table =
+cellpadding=3D"0" cellspacing=3D"0" border=3D"0"><tr><td width=3D"184"><a h=
+ref=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1629U2TJJXVYM=
+&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%2Ftraining%2Fcourse-descriptions%2Fb=
+usiness-essentials%2F%3Fsc_ichannel%3Dem%26sc_icountry%3Demea%26sc_icampaig=
+ntype%3Dnewsletter%26sc_icampaign%3Dem_158486500%26sc_idetail%3Dem_20757293=
+00%26ref_%3Dpe_1856330_158486500_114&A=3DO8ZAYUSTEAPASAMOAG7GSJ252CCA&H=3DU=
+HA26LJQSDTT7JDB9A6QFTDXKCGA&ref_=3Dpe_1856330_158486500_114"><img class=3D"=
+displayWidth" style=3D"display: block;" src=3D"https://s3-eu-west-1.amazona=
+ws.com/ukemails/business+essential.JPG" alt=3D"AWS Business Essentials" wid=
+th=3D"184"></a>
+</td>
+</tr>
+<tr ><td style=3D"font-family:arial, helvetica, sans-serif; line-height:20p=
+x; font-size:13px; padding-top:10px; " ><span style=3D"font-size:14px; line=
+-height:24px; color:#414042;"><strong>AWS Business Essentials</strong></spa=
+n>
+<br>
+<a style=3D"color: #146eb4;" href=3D"https://www.amazon.com/gp/r.html?C=3D2=
+RFQE3TB4179T&R=3D1629U2TJJXVYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%2Ftrai=
+ning%2Fcourse-descriptions%2Fbusiness-essentials%2F%3Fsc_ichannel%3Dem%26sc=
+_icountry%3Demea%26sc_icampaigntype%3Dnewsletter%26sc_icampaign%3Dem_158486=
+500%26sc_idetail%3Dem_2075729300%26ref_%3Dpe_1856330_158486500_114&A=3DO8ZA=
+YUSTEAPASAMOAG7GSJ252CCA&H=3DUHA26LJQSDTT7JDB9A6QFTDXKCGA&ref_=3Dpe_1856330=
+_158486500_114">Learn more and find a class &raquo;</a>
+<br>
+<br></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+</tr>
+<tr>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1"></td>
+<td>
+<hr style=3D'color:#E8E8E8;' size=3D"1"></td>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1"></td>
+</tr>
+<tr ><td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=
+=3D"http://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spa=
+cer.gif" border=3D"0" alt=3D"" width=3D"1" height=3D"1">&nbsp;</td>
+<td align=3D"right" class=3D"socialContainer" style=3D"padding-top:40px; " =
+><div class=3D"mktEditable" id=3D"socialStuff" ><span class=3D"socialPod"><=
+a href=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1629U2TJJX=
+VYM&T=3DC&U=3Dhttp%3A%2F%2Faws.amazon.com%2Fblogs%2Faws%2F%3Fsc_ichannel%3D=
+em%26sc_icampaign%3D158486500%26ref_%3Dpe_1856330_158486500_1%26sc_icontent=
+%3Dnews_aug_14_blog_Cor&A=3DHCOJYXVSDIWTEAJNJOPRHKOUTE0A&H=3DT5OSMIDIO53V2M=
+3BYOSXVNZ4NNIA&ref_=3Dpe_1856330_158486500_1"><img src=3D"http://d36cz9buwr=
+u1tt.cloudfront.net/aws-email-blog.png" alt=3D"AWS Blog" height=3D"20" widt=
+h=3D"20"></a></span>&nbsp;<span=20
+class=3D"socialDivider">&nbsp;<img src=3D"http://d36cz9buwru1tt.cloudfront.=
+net/aws-email-footer-line.png" alt=3D"ln  brk">&nbsp;</span><span class=3D"=
+socialPod">&nbsp;<a=20
+href=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1629U2TJJXVY=
+M&T=3DC&U=3Dhttp%3A%2F%2Fwww.facebook.com%2Famazonwebservices%2F%3Fsc_ichan=
+nel%3DEM%26sc_icountry%3DEMEA%26sc_icampaigntype%3DEvent%26sc_icampaign%3DE=
+M_158486500%26ref_%3D2&A=3DSSAWHYBHTMFQGNXC58I48OGV5LIA&H=3DOKSLLQZAFRHJEYE=
+H9CMIOXH4WA8A"><img src=3D"http://d36cz9buwru1tt.cloudfront.net/icon_fb.png=
+" alt=3D"Facebook" height=3D"20" width=3D"20"></a>&nbsp;</span><span=20
+class=3D"socialPod">&nbsp;<a href=3D"https://www.amazon.com/gp/r.html?C=3D2=
+RFQE3TB4179T&R=3D1629U2TJJXVYM&T=3DC&U=3Dhttp%3A%2F%2Ftwitter.com%2Fawsclou=
+d%2F%3Fsc_ichannel%3DEM%26sc_icountry%3DEMEA%26sc_icampaigntype%3DEvent%26s=
+c_icampaign%3DEM_158486500%26ref_%3D3&A=3D0WFMQSAIEZAKIANKC7Z9BVYEQDAA&H=3D=
+FKFCV3UK4UG3KJJ8AAXAHFNW9PAA"><img src=3D"http://d36cz9buwru1tt.cloudfront.=
+net/icon_tw.png" alt=3D"Twitter" height=3D"20"=20
+width=3D"20"></a>&nbsp;</span><span class=3D"socialPod">&nbsp;<a href=3D"ht=
+tps://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1629U2TJJXVYM&T=3DC&U=
+=3Dhttp%3A%2F%2Fwww.youtube.com%2Fuser%2FAmazonWebServices%2F%3Fsc_ichannel=
+%3DEM%26sc_icountry%3DEMEA%26sc_icampaigntype%3DEvent%26sc_icampaign%3DEM_1=
+58486500%26ref_%3D4&A=3DHEALCZYN4ANKIRPAFC1HJYIIYCKA&H=3DVWDLMAOBUJIQRABCBJ=
+VA1DS7AKQA"><img src=3D"http://d36cz9buwru1tt.cloudfront.net/icon_yt.png"=
+=20
+alt=3D"YouTube" height=3D"20" width=3D"20"></a>&nbsp;</span><span class=3D"=
+socialPod">&nbsp;<a href=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3TB41=
+79T&R=3D1629U2TJJXVYM&T=3DC&U=3Dhttp%3A%2F%2Fwww.slideshare.net%2FAmazonWeb=
+Services%2F%3Fsc_ichannel%3DEM%26sc_icountry%3DEMEA%26sc_icampaigntype%3DEv=
+ent%26sc_icampaign%3DEM_158486500%26ref_%3D5&A=3DN1B2NBARBTR3RWW3QSJHB8B3VP=
+WA&H=3DAIKHPWH56QLA7UZGEEXEBLLDZRWA"><img=20
+src=3D"http://d36cz9buwru1tt.cloudfront.net/icon_ss.png" alt=3D"Slideshare"=
+ height=3D"20" width=3D"20"></a></span>
+</div>
+<br>
+<hr width=3D"100%" color=3D"#E8E8E8" size=3D"1"></td>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1"></td>
+</tr>
+<tr ><td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=
+=3D"http://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spa=
+cer.gif" border=3D"0" alt=3D"" width=3D"1" height=3D"1"></td>
+<td align=3D"left" ><div class=3D"mktEditable" id=3D"footerStuff" >
+<div><span style=3D"font-size: 10px;"><span style=3D"color: #808080;">We ho=
+pe you enjoyed receiving this message.
+                                              If you'd rather not receive f=
+uture emails from Amazon Web Services </span><a style=3D"color: #787878; te=
+xt-decoration: none;"=20
+href=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1629U2TJJXVY=
+M&T=3DX&U=3Dhttp%3A%2F%2Faws.amazon.com%2Femail-preferences%2F%3Fmkt_tok%3D=
+1wpq4LFYtIurggsosaTux4SXrjv9Y4ooXYN0-fqnpsp-AzSBJB.D2l6BmGyrhR2QU%26sc_icha=
+nnel%3DEM%26sc_icountry%3DEMEA%26sc_icampaigntype%3DEvent%26sc_icampaign%3D=
+EM_158486500%26ref_%3D6&A=3DTDWF7Z8FAUGRZSTJ2AKUYZHLXNSA&H=3DPYLZTI8ZTPAG5N=
+5VGSALV91WKMWA"><span style=3D"color: #808080;">unsubscribe here</span></a>=
+<span style=3D"color: #808080;">.</span></span><br /><br /><span=20
+style=3D"font-size: 10px; color: #808080;">Amazon Web Services, Inc.
+                                              is a subsidiary of Amazon.com=
+, Inc.
+                                              Amazon.com is a registered tr=
+ademark of Amazon.com, Inc.</span><br /><span style=3D"font-size: 10px; col=
+or: #808080;">This message produced and distributed by Amazon Web Services,=
+ Inc., 410 Terry Ave.
+                                              North, Seattle, WA 98109-5210=
+.</span></div>
+</div>
+<br></td>
+<td width=3D"30" class=3D'marginAl'><img style=3D"display: block;" src=3D"h=
+ttp://na-sj01.marketo.com/rs/amazonwebservices/images/awscloudtour_spacer.g=
+if" border=3D"0" alt=3D"" width=3D"1" height=3D"1"></td>
+</tr>
+</table>
+<br></td>
+</tr>
+</table>
+<img src=3D"https://www.amazon.com/gp/r.html?C=3D2RFQE3TB4179T&R=3D1629U2TJ=
+JXVYM&T=3DE&U=3Dhttp%3A%2F%2Fimages.amazon.com%2Fimages%2FG%2F01%2Fnav%2Ftr=
+ansp.gif&A=3DAEYUWSXA0XBBWAMFM0IVIJCKRTGA&H=3DPYZCPSFOU519IJVAAL38YHQAOMWA"=
+ /></body>
+</html>
+
+------=_Part_37913510_1766469808.1449475791528--
+
+------=_Part_37913509_1320677860.1449475791528--

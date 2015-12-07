@@ -7,7 +7,7 @@ import json
 import urllib2
 import datetime
 
-WEBHOOK_URL = 'YOUR_INCOMING_WEBHOOK_URL_HERE'
+WEBHOOK_URL = 'https://hooks.slack.com/services/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'
 LOGFILE = '/var/log/slackmail.log'
 
 inputstring = sys.stdin.read()

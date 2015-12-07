@@ -1,0 +1,78 @@
+Delivered-To: kenneth@wangpedersen.com
+Return-Path: <robot@wangpedersen.com>
+Received: from server.home.wangpedersen.com (111.42.45.31.customer.cdi.no [31.45.42.111]) by mx.zohomail.com
+	with SMTPS id 14494824889971020.3128303568229; Mon, 7 Dec 2015 02:01:28 -0800 (PST)
+Received: from git.home.wangpedersen.com ([10.9.78.81] helo=git)
+	by server.home.wangpedersen.com with esmtp (Exim 4.84)
+	(envelope-from <robot@wangpedersen.com>)
+	id 1a5scR-0003oz-Ce
+	for kenneth@wangpedersen.com; Mon, 07 Dec 2015 11:02:07 +0100
+Received: by git (Postfix)
+	id 5B3DD62195C; Mon,  7 Dec 2015 11:02:02 +0100 (CET)
+Received: by git (Postfix, from userid 106)
+	id 566546218FF; Mon,  7 Dec 2015 11:02:02 +0100 (CET)
+To: logcheck@git.home.wangpedersen.com
+Subject: git.home.wangpedersen.com 2015-12-07 11:02 +0100 System Events
+Auto-Submitted: auto-generated
+MIME-Version: 1.0 (mime-construct 1.11)
+Message-Id: <20151207100202.566546218FF@git>
+Date: Mon,  7 Dec 2015 11:02:02 +0100 (CET)
+From: "logcheck@git" <robot@wangpedersen.com>
+X-ZohoMail: Ss  SS_10 UW2468 UB2468 UW2468 UB2468 ZMHF-MSGIDDMNPTN_1 ODL  CT SGR3_1_12115_1322
+X-ZohoMail-Owner: <20151207100202.566546218FF@git>+zmo_0_<robot@wangpedersen.com>
+X-ZohoMail-Sender: 31.45.42.111
+X-Zoho-Virus-Status: 2
+
+This email is sent by logcheck. If you no longer wish to receive
+such mail, you can either deinstall the logcheck package or modify
+its configuration file (/etc/logcheck/logcheck.conf).
+
+System Events
+=-=-=-=-=-=-=
+Dec  7 10:59:56 git sshd[20247]: invalid public DH value: <= 1 [preauth]
+Dec  7 10:59:56 git sshd[20247]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:00 git sshd[20254]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:00 git sshd[20254]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:04 git sshd[20259]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:04 git sshd[20259]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:08 git sshd[20267]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:08 git sshd[20267]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:11 git sshd[20273]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:11 git sshd[20273]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:15 git sshd[20279]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:15 git sshd[20279]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:19 git sshd[20285]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:19 git sshd[20285]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:23 git sshd[20291]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:23 git sshd[20291]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:26 git sshd[20297]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:26 git sshd[20297]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:30 git sshd[20303]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:30 git sshd[20303]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:34 git sshd[20308]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:34 git sshd[20308]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:37 git sshd[20314]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:37 git sshd[20314]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:44 git sshd[20324]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:44 git sshd[20324]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:48 git sshd[20331]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:48 git sshd[20331]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:52 git sshd[20337]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:52 git sshd[20337]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:56 git sshd[20342]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:56 git sshd[20342]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:00:59 git sshd[20348]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:00:59 git sshd[20348]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:01:03 git sshd[20354]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:01:03 git sshd[20354]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:01:07 git sshd[20359]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:01:07 git sshd[20359]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:01:11 git sshd[20365]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:01:11 git sshd[20365]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:01:14 git sshd[20371]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:01:14 git sshd[20371]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:01:18 git sshd[20378]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:01:18 git sshd[20378]: Disconnecting: bad client public DH value [preauth]
+Dec  7 11:01:22 git sshd[20383]: invalid public DH value: <= 1 [preauth]
+Dec  7 11:01:22 git sshd[20383]: Disconnecting: bad client public DH value [preauth]
+
