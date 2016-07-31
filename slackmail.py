@@ -70,6 +70,8 @@ try:
         body = message.get_payload(decode=True)
         charset = message.get_charset()
     (realname, addr) = email.utils.parseaddr(sender)
+    if not realname:
+        realname = addr
     realname = decode_header(realname)
     if charset:
         body = body.decode(charset).encode('utf-8')
