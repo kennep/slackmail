@@ -6,11 +6,18 @@ import traceback
 import json
 import urllib2
 import datetime
+import ConfigParser
+import argparse
 
-WEBHOOK_URL = 'https://hooks.slack.com/services/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'
-LOGFILE = '/var/log/slackmail.log'
-
-inputstring = sys.stdin.read()
+DEFAULT_LOGFILE = '/var/log/slackmail.log'
+DEFAULT_CONFIGFILE = '/etc/slackmail.conf'
+def read_config(filename):
+    config = ConfigParser.RawConfigParser()
+    if not config.has_section('log'):
+        config.add_section('log')
+    config.set('log', 'logfile', DEFAULT_LOGFILE)
+    config.readfp(open(filename, 'r'))
+    return config
 
 def decode_header(header):
     def decoder(t):
@@ -21,7 +28,32 @@ def decode_header(header):
     data = email.header.decode_header(header)
     return ''.join(map(decoder, data))
 
+parser = argparse.ArgumentParser(description='Send mail to slack')
+parser.add_argument('--config', dest='configfile', action='store',
+                    default=DEFAULT_CONFIGFILE,
+                    help='Config file to read (default %s)' % DEFAULT_CONFIGFILE)
+parser.add_argument('--nullmailer', dest='nullmailer', action='store_true',
+                    help='Work as a nullmailer protocol handler')
+
+args = parser.parse_args()
+
+config = read_config(args.configfile)
+logfile = config.get('log', 'logfile')
+webhook_url = config.get('slack', 'webhook_url')
+
+inputstring = sys.stdin.read()
+
 try:
+    if args.nullmailer:
+        # nullmailer protocol handlers expect the first line of input to be the sender,
+        # then following lines to be recipients, then a blank line,
+        # before the actual mail. We skip this before processing the
+        # rest.
+        idx = inputstring.find("\n\n")
+        if idx == -1:
+            raise ValueError, "Input did not contain nullmailer prefix"
+        inputstring = inputstring[idx+2:]
+
     message = email.message_from_string(inputstring)
 
     sender = message['from']
@@ -57,16 +89,15 @@ try:
         'icon_emoji': ':robot_face:'
     }
     payload = json.dumps(payload)
-    urllib2.urlopen(WEBHOOK_URL, payload)
+    urllib2.urlopen(webhook_url, payload)
 except Exception, e:
     print "Error posting to Slack:"
     traceback.print_exc()
     print "Payload:"
     print payload
-    with open(LOGFILE, 'a') as logfile:
-        print >>logfile, datetime.datetime.now()
-        print >>logfile, "Error posting to Slack:"
-        print >>logfile, traceback.format_exc()
-        print >>logfile, "Payload: "
-        print >>logfile, payload
-
+    with open(logfile, 'a') as logfd:
+        print >>logfd, datetime.datetime.now()
+        print >>logfd, "Error posting to Slack:"
+        print >>logfd, traceback.format_exc()
+        print >>logfd, "Payload: "
+        print >>logfd, payload

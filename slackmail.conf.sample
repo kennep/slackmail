@@ -1,0 +1,9 @@
+# Configuration file for slackmail
+# Default location for this file is /etc/slackmail.conf
+
+[slack]
+# Replace YOUR_WEBHOOK_URL_HERE with the actual URL of your slack webhook
+webhook_url=YOUR_WEBHOOK_URL_HERE
+
+#[log]
+#logfile=/var/log/slackmail.log
