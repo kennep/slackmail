@@ -5,5 +5,11 @@
 # Replace YOUR_WEBHOOK_URL_HERE with the actual URL of your slack webhook
 webhook_url=YOUR_WEBHOOK_URL_HERE
 
+# You can also set the channel here (if not set it will be the default
+# configured for the webhook)
+#
+# channel=#mychannel
+
 #[log]
-#logfile=/var/log/slackmail.log
+# Location of the log file
+# logfile=/var/log/slackmail.log

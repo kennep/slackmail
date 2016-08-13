@@ -70,9 +70,11 @@ try:
         body = message.get_payload(decode=True)
         charset = message.get_charset()
     (realname, addr) = email.utils.parseaddr(sender)
-    if not realname:
-        realname = addr
-    realname = decode_header(realname)
+    if realname:
+        realname = decode_header(realname)
+        username = "%s <%s>" % (realname, addr)
+    else:
+        username = addr
     if charset:
         body = body.decode(charset).encode('utf-8')
 except Exception:
@@ -87,9 +89,11 @@ try:
           'text': '```\n' + body + '```\n',
           'mrkdwn_in': ["text"]
         }],
-        'username': realname,
+        'username': username,
         'icon_emoji': ':robot_face:'
     }
+    if config.has_option('slack', 'channel'):
+        payload['channel'] = config.get('slack', 'channel')
     payload = json.dumps(payload)
     urllib2.urlopen(webhook_url, payload)
 except Exception, e:
