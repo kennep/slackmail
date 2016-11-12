@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-import email
-import email.header
 import sys
 import traceback
 import json
@@ -8,6 +6,8 @@ import urllib2
 import datetime
 import ConfigParser
 import argparse
+import time
+import select
 
 DEFAULT_LOGFILE = '/var/log/slackmail.log'
 DEFAULT_CONFIGFILE = '/etc/slackmail.conf'
@@ -36,14 +36,14 @@ config = read_config(args.configfile)
 logfile = config.get('log', 'logfile')
 webhook_url = config.get('slack', 'webhook_url')
 
-while True:
-    inputstring = sys.stdin.readline()
-    if inputstring == '': break
-    if args.tee:
-        print inputstring,
+linebuffer = []
+last_send = 0
+
+def flush(linebuffer):
+    if not linebuffer: return
     try:
         payload = {
-            'text': inputstring.rstrip(),
+            'text': "".join(linebuffer),
             'icon_emoji': ':robot_face:'
         }
         if args.username is not None:
@@ -57,3 +57,28 @@ while True:
         traceback.print_exc()
         print >> stderr, "Payload:"
         print >> stderr, payload
+
+while True:
+    if linebuffer:
+        (r,w,e) = select.select([sys.stdin], [], [], 2)
+        if r:
+            do_read = True
+        else:
+            do_read = False
+    else:
+        do_read = True
+
+    if do_read:
+        inputstring = sys.stdin.readline()
+        if inputstring == '':
+            flush(linebuffer)
+            break
+        if args.tee:
+            print inputstring,
+        linebuffer.append(inputstring)
+
+    if time.time() - last_send < 2:
+        continue
+    flush(linebuffer)
+    linebuffer = []
+    last_send = time.time()
