@@ -2,6 +2,9 @@ Slackmail is a script that reads an email on standard input and sends it as a me
 You can integrate it with your mail transfer agent (sendmail, exim, postfix, etc.) so that you can
 get mail from the server posted to a slack channel instead.
 
+This repository also includes slackcat, a simple utility that will send whatever it gets on standard input,
+to slack, on a line-by-line basis.
+
 # Installation
 
 To use it, you fist need to set up an incoming webhook integration on Slack.
@@ -37,3 +40,17 @@ Example:
 ```
 dummy-host-name slackmail
 ```
+
+# slackcat
+The slackcat utility just echoes to slack what it gets on standard input on a line-by-line
+basis.
+
+Example:
+
+```
+ls -l |python slackcat.py --tee --username ls
+```
+
+The --tee option also echoes what it gets on standard input, to standard output, while the
+--username option lets you specify what username to post as (the default is to post as
+  whatever username is set as the default for the webhook you have specified.)
