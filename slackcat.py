@@ -26,6 +26,9 @@ parser.add_argument('--config', dest='configfile', action='store',
 parser.add_argument('--username', dest='username', action='store',
     default=None,
     help='Username to post as')
+parser.add_argument('--channel', dest='channel', action='store',
+    default=None,
+    help='Channel to post to')
 parser.add_argument('--tee', dest='tee', action='store_true',
     default=False,
     help='Also send output to standard out')
@@ -48,15 +51,17 @@ def flush(linebuffer):
         }
         if args.username is not None:
             payload['username'] = args.username
-        if config.has_option('slack', 'channel'):
+        if args.channel is not None:
+            payload['channel'] = args.channel
+        elif config.has_option('slack', 'channel'):
             payload['channel'] = config.get('slack', 'channel')
         payload = json.dumps(payload)
         urllib2.urlopen(webhook_url, payload)
     except Exception, e:
-        print >> stderr, "Error posting to Slack:"
+        print >> sys.stderr, "Error posting to Slack:"
         traceback.print_exc()
-        print >> stderr, "Payload:"
-        print >> stderr, payload
+        print >> sys.stderr, "Payload:"
+        print >> sys.stderr, payload
 
 while True:
     if linebuffer:
