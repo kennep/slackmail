@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import sys
 import traceback
 import json
-import urllib2
+import urllib.request, urllib.error, urllib.parse
 import datetime
-import ConfigParser
+import configparser
 import argparse
 import time
 import select
@@ -12,11 +12,11 @@ import select
 DEFAULT_LOGFILE = '/var/log/slackmail.log'
 DEFAULT_CONFIGFILE = '/etc/slackmail.conf'
 def read_config(filename):
-    config = ConfigParser.RawConfigParser()
+    config = configparser.ConfigParser()
     if not config.has_section('log'):
         config.add_section('log')
     config.set('log', 'logfile', DEFAULT_LOGFILE)
-    config.readfp(open(filename, 'r'))
+    config.read_file(open(filename, 'r'))
     return config
 
 parser = argparse.ArgumentParser(description='Send stadard out to slack')
@@ -55,13 +55,13 @@ def flush(linebuffer):
             payload['channel'] = args.channel
         elif config.has_option('slack', 'channel'):
             payload['channel'] = config.get('slack', 'channel')
-        payload = json.dumps(payload)
-        urllib2.urlopen(webhook_url, payload)
-    except Exception, e:
-        print >> sys.stderr, "Error posting to Slack:"
+        payload = json.dumps(payload).encode('utf-8')
+        urllib.request.urlopen(webhook_url, payload)
+    except Exception as e:
+        print("Error posting to Slack:", file=sys.stderr)
         traceback.print_exc()
-        print >> sys.stderr, "Payload:"
-        print >> sys.stderr, payload
+        print("Payload:", file=sys.stderr)
+        print(payload, file=sys.stderr)
 
 while True:
     if linebuffer:
@@ -79,7 +79,7 @@ while True:
             flush(linebuffer)
             break
         if args.tee:
-            print inputstring,
+            print(inputstring, end=' ')
         linebuffer.append(inputstring)
 
     if time.time() - last_send < 2:
